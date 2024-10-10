@@ -27,10 +27,10 @@ Descargar la imagen **hello-world**
 # docker pull hello-world
 
 **¿Qué es nginx**
-# Nginx es un servidor web y proxy inverso de código abierto, conocido por su alto rendimiento y capacidad para manejar muchas conexiones simultáneas. Se utiliza para servir contenido estático, actuar como proxy entre clientes y servidores de aplicaciones, realizar balanceo de carga, y mejorar la seguridad con funciones como limitación de solicitudes y protección contra DDoS. Es ampliamente usado en sitios de alto tráfico por su eficiencia y estabilidad.
+Nginx es un servidor web y proxy inverso de código abierto, conocido por su alto rendimiento y capacidad para manejar muchas conexiones simultáneas. Se utiliza para servir contenido estático, actuar como proxy entre clientes y servidores de aplicaciones, realizar balanceo de carga, y mejorar la seguridad con funciones como limitación de solicitudes y protección contra DDoS. Es ampliamente usado en sitios de alto tráfico por su eficiencia y estabilidad.
 
 Descargar la imagen  **nginx** en la versión **alpine**
-# docker pull nginx:alpine
+docker pull nginx:alpine
 
 ### Listar imágenes
 
@@ -38,7 +38,8 @@ Descargar la imagen  **nginx** en la versión **alpine**
 docker images
 ```
 
-# COLOCAR UNA CAPTURA DE PANTALLA DEL RESULTADO 
+![image](https://github.com/user-attachments/assets/c3341bc3-7df6-4078-8303-b16a8d8bcfec)
+
 
 **Identificadores**
 
