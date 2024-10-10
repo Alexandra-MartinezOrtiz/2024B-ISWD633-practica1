@@ -4,8 +4,8 @@ Es un archivo único que contiene todos los programas, librerías, dependencias 
 
 
 ## ¿Cuál es la relación entre una imagen y un contenedor? 
-# COMPLETAR 
 
+La relación entre una imagen y un contenedor se refiere a cómo la imagen se ajusta, escala y posiciona dentro de un elemento que la contiene. El contenedor define el tamaño, el posicionamiento y el ajuste de la imagen mediante propiedades CSS como width, height, object-fit, y puede influir en la visualización de la imagen en diferentes dispositivos o resoluciones.
 ![Imagen y contenedores](img/imagenContenedores.JPG)
 ## Comandos para imágenes
 
@@ -24,13 +24,13 @@ docker pull <nombre imagen>:<tag>
 ```
 
 Descargar la imagen **hello-world**
-# COMPLETAR
+# docker pull hello-world
 
 **¿Qué es nginx**
-# COMPLETAR 
+# Nginx es un servidor web y proxy inverso de código abierto, conocido por su alto rendimiento y capacidad para manejar muchas conexiones simultáneas. Se utiliza para servir contenido estático, actuar como proxy entre clientes y servidores de aplicaciones, realizar balanceo de carga, y mejorar la seguridad con funciones como limitación de solicitudes y protección contra DDoS. Es ampliamente usado en sitios de alto tráfico por su eficiencia y estabilidad.
 
 Descargar la imagen  **nginx** en la versión **alpine**
-# COMPLETAR
+# docker pull nginx:alpine
 
 ### Listar imágenes
 
