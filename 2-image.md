@@ -24,9 +24,10 @@ docker pull <nombre imagen>:<tag>
 ```
 
 Descargar la imagen **hello-world**
-# docker pull hello-world
+docker pull hello-world
 
 **¿Qué es nginx?**
+
 Nginx es un servidor web y proxy inverso de código abierto, conocido por su alto rendimiento y capacidad para manejar muchas conexiones simultáneas. Se utiliza para servir contenido estático, actuar como proxy entre clientes y servidores de aplicaciones, realizar balanceo de carga, y mejorar la seguridad con funciones como limitación de solicitudes y protección contra DDoS. Es ampliamente usado en sitios de alto tráfico por su eficiencia y estabilidad.
 
 Descargar la imagen  **nginx** en la versión **alpine**
@@ -46,6 +47,7 @@ docker images
 En Docker, se utilizan varios identificadores para diferenciar de manera única los elementos del sistema, como imágenes, contenedores, volúmenes y redes. Estos identificadores son generados automáticamente por Docker y son únicos dentro del contexto del sistema Docker en el que se encuentran. 
 
 ### Inspeccionar una imagen
+
 El comando docker inspect se utiliza para obtener información detallada sobre un objeto de Docker específico, como un contenedor, una imagen, un volumen o una red.  Proporciona información en formato JSON sobre el objeto especificado.
 
 ```
@@ -58,7 +60,8 @@ docker inspect hello-world
 docker inspect hello-world:latest
 
 
-**¿Con qué algoritmo se está generando el ID de la imagen**
+**¿Con qué algoritmo se está generando el ID de la imagen?**
+
 Se genera utilizando el algoritmo de hash SHA-256.
 
 ### Filtrar imágenes
